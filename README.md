@@ -30,3 +30,15 @@ ng serve
 
 - Logout disponible en la toolbar.
 
+## 🔐 Acceso a la lista de proyectos/tareas
+
+Para ingresar al sistema y acceder a la lista de proyectos o tareas:
+
+1. Introduzca un correo electrónico válido en el campo de Email.
+
+2. Ingrese una contraseña con al menos 6 caracteres.
+
+3. Presione el botón Ingresar.
+
+Una vez autenticado, será redirigido al formulario de proyectos, desde donde podrá gestionar la lista de proyectos y tareas.
+
