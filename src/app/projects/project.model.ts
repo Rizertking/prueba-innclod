@@ -1,0 +1,1 @@
+export interface Project { id: number; name: string; email?: string; company?: { name: string } }

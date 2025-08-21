@@ -1,0 +1,23 @@
+.edit-card {
+  max-width: 560px;
+  margin: 24px auto;
+  padding-bottom: 4px; // integra el progress bar al borde inferior
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .w100 { width: 100%; }
+
+  .actions {
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+}
+
+/* (Opcional) un pelín más compacto en campos */
+::ng-deep .mat-mdc-form-field-infix { padding-top: 10px; padding-bottom: 10px; }

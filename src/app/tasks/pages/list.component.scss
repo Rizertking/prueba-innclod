@@ -1,0 +1,54 @@
+.list-card {
+  margin: 20px;
+  overflow: hidden;
+}
+
+.list-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
+  .spacer { flex: 1 1 auto; }
+  .search {
+    width: 260px;
+    margin-right: 12px;
+    margin-top: 12px;
+  }
+}
+
+.table-wrap {
+  max-height: 60vh;
+  overflow: auto;
+}
+
+table { width: 100%; }
+
+th.sticky {
+  position: sticky;
+  top: 0;
+  background: var(--mat-table-background-color, #fff);
+  z-index: 1;
+}
+
+.dense {
+  th, td { padding: 10px 12px; }
+  tr.row:nth-child(even) { background: #fafafa; }
+}
+
+.text-right { text-align: right; }
+
+.empty {
+  padding: 32px 16px;
+  text-align: center;
+  color: rgba(0,0,0,.54);
+
+  mat-icon {
+    font-size: 48px;
+    width: 48px; height: 48px;
+    display: block;
+    margin: 0 auto 8px;
+    opacity: .6;
+  }
+
+  button { margin-top: 8px; }
+}
